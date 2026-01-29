@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Conseil et Assistance Technique - DST</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- CSS personnalisé -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Favicon -->        
+    <link rel="icon" href="browser_331593.png" type="image/x-icon">
+</head>
+<body>
+
+<!-- ===== NAVBAR ===== -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top">
+    <div class="container">
+        <a class="navbar-brand fw-bold" href="index.html">DST</a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="menu">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link" href="index.html">Accueil</a></li>
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle active" href="#" data-bs-toggle="dropdown">
+                        Services
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="lt.html">Levés Topographiques</a></li>
+                        <li><a class="dropdown-item" href="sig.html">Cartographie & SIG</a></li>
+                        <li><a class="dropdown-item" href="gfc.html">Gestion foncière</a></li>
+                        <li><a class="dropdown-item active" href="cat.html">Conseils techniques</a></li>
+                    </ul>
+                </li>
+
+                <li class="nav-item"><a class="nav-link" href="doc.html">Documentation</a></li>
+                <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                <li class="nav-item"><a class="nav-link" href="about.html">À propos</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- ===== CONTENT ===== -->
+<section class="py-5 conseil-section">
+    <div class="container">
+        <h1 class="text-center mb-4">Conseil et Assistance Technique</h1>
+
+        <p class="lead text-center mb-5">
+            La DST accompagne les institutions publiques, entreprises et particuliers
+            dans la gestion des données géospatiales, SIG et topographiques.
+        </p>
+
+        <!-- ACCORDION -->
+        <div class="accordion" id="conseilAccordion">
+
+            <!-- Expertise -->
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button" data-bs-toggle="collapse" data-bs-target="#expertise">
+                        1. Nos Domaines d’Expertise
+                    </button>
+                </h2>
+                <div id="expertise" class="accordion-collapse collapse show">
+                    <div class="accordion-body">
+                        <ul>
+                            <li>Levés topographiques et géodésiques</li>
+                            <li>Cartographie, SIG et modélisation 3D</li>
+                            <li>Gestion foncière et cadastrale</li>
+                            <li>Études de faisabilité</li>
+                            <li>Audit et contrôle de qualité</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Conseil -->
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#conseil">
+                        2. Services de Conseil
+                    </button>
+                </h2>
+                <div id="conseil" class="accordion-collapse collapse">
+                    <div class="accordion-body">
+                        <ul>
+                            <li>Conseil stratégique SIG</li>
+                            <li>Consultation en levés topographiques</li>
+                            <li>Formation SIG (ArcGIS, QGIS, AutoCAD)</li>
+                            <li>Support en gestion foncière</li>
+                            <li>Analyse géospatiale et environnementale</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Assistance -->
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#assistance">
+                        3. Assistance Technique
+                    </button>
+                </h2>
+                <div id="assistance" class="accordion-collapse collapse">
+                    <div class="accordion-body">
+                        <ul>
+                            <li>Collecte de données terrain, drones et LiDAR</li>
+                            <li>Support SIG et cartographie interactive</li>
+                            <li>Gestion de projets SIG</li>
+                            <li>Support logiciel (ArcGIS, QGIS, AutoCAD)</li>
+                            <li>Maintenance des systèmes géospatiaux</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Contact -->
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#contact">
+                        4. Obtenir un Conseil ou une Assistance
+                    </button>
+                </h2>
+                <div id="contact" class="accordion-collapse collapse">
+                    <div class="accordion-body">
+                        <ul>
+                            <li>Téléphone : <strong>+33 1 23 45 67 89</strong></li>
+                            <li>Email : <a href="mailto:contact@dst-france.fr">contact@dst-france.fr</a></li>
+                            <li>Adresse : Antananarivo, Anosy</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Réalisations -->
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#projects">
+                        5. Témoignages et Réalisations
+                    </button>
+                </h2>
+                <div id="projects" class="accordion-collapse collapse">
+                    <div class="accordion-body">
+                        <ul>
+                            <li>Cartographie urbaine – Ville de Nantes</li>
+                            <li>Levés topographiques – Infrastructures à Lyon</li>
+                            <li>Formations SIG – Administrations locales</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<!-- ===== FOOTER ===== -->
+<footer class="bg-dark text-white text-center py-3">
+    <p class="mb-0">&copy; 2025 Direction des Services Topographiques</p>
+</footer>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+<!-- JS -->
+<script src="script.js"></script>
+
+</body>
+</html>

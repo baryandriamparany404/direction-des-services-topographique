@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Documentation - Direction des Services Topographiques</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Favicon -->        
+  <link rel="icon" href="browser_331593.png" type="image/x-icon">
+  <style>
+    body {
+      background-color: #f8f9fa;
+      font-family: Arial, sans-serif;
+
+    }
+    header {
+      background-color: #0d6efd;
+      color: white;
+      padding: 15px 0;
+    }
+    .logo {
+      font-weight: bold;
+      font-size: 1.2rem;
+    }
+    section.documentation h1 {
+      color: #0d6efd;
+      margin-bottom: 20px;
+    }
+    footer {
+      background-color: #0d6efd;;
+      color: white;
+      text-align: center;
+      padding: 15px 0;
+      margin-top: 30px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand logo" href="#">Direction des Services Topographiques</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuNav">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="menuNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item"><a class="nav-link" href="index.html">Accueil</a></li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="servicesDropdown" role="button" data-bs-toggle="dropdown">
+                Services
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="lt.html">Levés Topographiques</a></li>
+                <li><a class="dropdown-item" href="sig.html">Cartographie et SIG</a></li>
+                <li><a class="dropdown-item" href="gfc.html">Gestion foncière et cadastrale</a></li>
+                <li><a class="dropdown-item" href="cat.html">Conseils et assistance technique</a></li>
+              </ul>
+            </li>
+            <li class="nav-item"><a class="nav-link active" href="doc.html">Documentation</a></li>
+            <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+            <li class="nav-item"><a class="nav-link" href="about.html">À propos</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Section Documentation -->
+  <section class="documentation py-5">
+    <div class="container">
+      <h1>Documentation de la Direction des Services Topographiques</h1>
+      <p class="lead">Cette page contient la documentation officielle de la DST. Vous y trouverez des informations sur nos procédures, nos normes techniques, ainsi que nos outils et méthodes utilisés dans la collecte et le traitement des données topographiques.</p>
+
+      <!-- Exemple avec accordéon Bootstrap pour rendre la lecture interactive -->
+      <div class="accordion" id="accordionGFC">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="heading1">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1">
+              1. Introduction à la Topographie
+            </button>
+          </h2>
+          <div id="collapse1" class="accordion-collapse collapse show" data-bs-parent="#accordionGFC">
+            <div class="accordion-body">
+              <p>La topographie est l'étude de la surface de la Terre, incluant les caractéristiques naturelles et artificielles. La DST est responsable de l'acquisition et de la gestion des données géospatiales nécessaires pour la planification urbaine, la gestion des ressources et la construction d'infrastructures.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="heading2">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse2">
+              2. Nos Normes et Méthodes
+            </button>
+          </h2>
+          <div id="collapse2" class="accordion-collapse collapse" data-bs-parent="#accordionGFC">
+            <div class="accordion-body">
+              <ul>
+                <li><strong>Levés Géodésiques :</strong> Réseaux de stations permanentes pour des mesures précises.</li>
+                <li><strong>Levés Topographiques :</strong> Instruments comme théodolites et GPS.</li>
+                <li><strong>Photogrammétrie et Drones :</strong> Données géospatiales haute résolution.</li>
+                <li><strong>SIG :</strong> Traitement des données pour cartes et modèles.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="heading3">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse3">
+              3. Outils et Technologies Utilisés
+            </button>
+          </h2>
+          <div id="collapse3" class="accordion-collapse collapse" data-bs-parent="#accordionGFC">
+            <div class="accordion-body">
+              <ul>
+                <li><strong>Logiciels SIG :</strong> ArcGIS, QGIS, etc.</li>
+                <li><strong>Appareils de précision :</strong> GPS haute précision, stations totales, LiDAR.</li>
+                <li><strong>Modèles 3D :</strong> Logiciels spécialisés pour terrains.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="heading4">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse4">
+              4. Documentation Technique
+            </button>
+          </h2>
+          <div id="collapse4" class="accordion-collapse collapse" data-bs-parent="#accordionGFC">
+            <div class="accordion-body">
+              <ul>
+                <li><a href="normes_geodesiques.pdf" target="_blank">Normes Géodésiques et Procédures</a></li>
+                <li><a href="procedure_drones.pdf" target="_blank">Procédures d'Utilisation des Drones</a></li>
+                <li><a href="guide_SIG.pdf" target="_blank">Guide de l'Utilisation des SIG</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="heading5">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse5">
+              5. Accès aux Données
+            </button>
+          </h2>
+          <div id="collapse5" class="accordion-collapse collapse" data-bs-parent="#accordionGFC">
+            <div class="accordion-body">
+              <p>Les données topographiques collectées par la DST sont disponibles sur demande. Pour accéder aux données géospatiales, veuillez consulter notre <a href="contact.html">page de contact</a>.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 Direction des Services Topographiques. Tous droits réservés.</p>
+    </div>
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script>
+    // Exemple d'interactivité : message de bienvenue
+    window.onload = function() {
+      console.log("Bienvenue sur la page Documentation de la DST !");
+    };
+  </script>
+</body>
+</html>

@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+}
+
+header {
+      background-color: #0d6efd;
+      color: white;
+      padding: 15px 0;
+    }
+    .logo {
+      font-weight: bold;
+      font-size: 1.2rem;
+    }
+    section.documentation h1 {
+      color: #0d6efd;
+      margin-bottom: 20px;
+    }
+    footer {
+      background-color: #0d6efd;;
+      color: white;
+      text-align: center;
+      padding: 30px 0;
+      margin-top: 30px;
+    }
+
+/* Hero section */
+.hero {
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+                url("img_7386.webp");
+    background-size: cover;
+    background-position: center;
+    padding: 120px 0;
+}
+
+/* Cards hover effect */
+.card {
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.about-section h1 {
+    font-weight: bold;
+    color: #0d6efd;
+}
+
+.about-section p {
+    font-size: 1.05rem;
+}
+
+.accordion-button {
+    font-weight: 600;
+}
+
+.conseil-section h1 {
+    color: #0d6efd;
+    font-weight: bold;
+}
+
+.accordion-button {
+    font-weight: 600;
+}

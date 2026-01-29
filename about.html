@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>À propos - Direction des Services Topographiques</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- CSS personnalisé -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Favicon -->        
+    <link rel="icon" href="browser_331593.png" type="image/x-icon">
+    
+</head>
+<body>
+
+ <!-- Header -->
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand logo" href="#">Direction des Services Topographiques</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuNav">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="menuNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item"><a class="nav-link" href="index.html">Accueil</a></li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="servicesDropdown" role="button" data-bs-toggle="dropdown">
+                Services
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="lt.html">Levés Topographiques</a></li>
+                <li><a class="dropdown-item" href="sig.html">Cartographie et SIG</a></li>
+                <li><a class="dropdown-item" href="gfc.html">Gestion foncière et cadastrale</a></li>
+                <li><a class="dropdown-item" href="cat.html">Conseils et assistance technique</a></li>
+              </ul>
+            </li>
+            <li class="nav-item"><a class="nav-link" href="doc.html">Documentation</a></li>
+            <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+            <li class="nav-item"><a class="nav-link active" href="about.html">À propos</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+<!-- ===== ABOUT SECTION ===== -->
+<section class="about-section py-5">
+    <div class="container">
+        <h1 class="text-center mb-4">À propos de la Direction des Services Topographiques</h1>
+
+        <p>
+            La <strong>Direction des Services Topographiques (DST)</strong> est un service public chargé
+            de la gestion et de la production de données géospatiales essentielles à l’aménagement
+            du territoire, à la gestion des infrastructures et à la planification urbaine.
+        </p>
+
+        <!-- ACCORDION -->
+        <div class="accordion mt-4" id="aboutAccordion">
+
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button" data-bs-toggle="collapse" data-bs-target="#history">
+                        Notre Histoire
+                    </button>
+                </h2>
+                <div id="history" class="accordion-collapse collapse show">
+                    <div class="accordion-body">
+                        Créée il y a plus de 30 ans, la DST a évolué avec les technologies modernes
+                        telles que les SIG, les drones et les levés LiDAR.
+                    </div>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#objectives">
+                        Nos Objectifs
+                    </button>
+                </h2>
+                <div id="objectives" class="accordion-collapse collapse">
+                    <div class="accordion-body">
+                        <ul>
+                            <li>Données géospatiales fiables et précises</li>
+                            <li>Aménagement durable du territoire</li>
+                            <li>Innovation technologique permanente</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#structure">
+                        Notre Structure
+                    </button>
+                </h2>
+                <div id="structure" class="accordion-collapse collapse">
+                    <div class="accordion-body">
+                        <ul>
+                            <li>Division Cartographique</li>
+                            <li>Division des Levés Topographiques</li>
+                            <li>Division Géodésique</li>
+                            <li>Division SIG</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#values">
+                        Nos Valeurs
+                    </button>
+                </h2>
+                <div id="values" class="accordion-collapse collapse">
+                    <div class="accordion-body">
+                        <ul>
+                            <li>Précision</li>
+                            <li>Innovation</li>
+                            <li>Transparence</li>
+                            <li>Collaboration</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- ORGANIGRAMME -->
+        <div class="text-center mt-5">
+            <h2>Organigramme de la DST</h2>
+            <img src="orga.png" class="img-fluid shadow mt-3" alt="Organigramme DST">
+        </div>
+
+    </div>
+</section>
+
+<!-- ===== FOOTER ===== -->
+<footer class= "py-3">
+    <p class="mb-0">&copy; 2025 Direction des Services Topographiques</p>
+</footer>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+<!-- JavaScript -->
+<script src="script.js"></script>
+
+</body>
+</html>

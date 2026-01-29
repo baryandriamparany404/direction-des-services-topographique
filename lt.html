@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Levés Topographiques - DST</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Favicon -->        
+  <link rel="icon" href="browser_331593.png" type="image/x-icon">
+  <style>
+    body {
+      background-color: #f8f9fa;
+      font-family: Arial, sans-serif;
+    }
+    header {
+      background-color: #0d6efd;
+      color: white;
+      padding: 15px 0;
+    }
+    .logo {
+      font-weight: bold;
+      font-size: 1.2rem;
+    }
+    section h1 {
+      color: #0d6efd;
+      margin-bottom: 20px;
+    }
+    footer {
+      background-color: #0d6efd;;
+      color: white;
+      text-align: center;
+      padding: 15px 0;
+      margin-top: 30px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand logo" href="#">Direction des Services Topographiques</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuNav">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="menuNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item"><a class="nav-link" href="index.html">Accueil</a></li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle active" href="#" id="servicesDropdown" role="button" data-bs-toggle="dropdown">
+                Services
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item active" href="lt.html">Levés Topographiques</a></li>
+                <li><a class="dropdown-item" href="sig.html">Cartographie et SIG</a></li>
+                <li><a class="dropdown-item" href="gfc.html">Gestion foncière et cadastrale</a></li>
+                <li><a class="dropdown-item" href="cat.html">Conseils et assistance technique</a></li>
+              </ul>
+            </li>
+            <li class="nav-item"><a class="nav-link" href="doc.html">Documentation</a></li>
+            <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+            <li class="nav-item"><a class="nav-link" href="about.html">À propos</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Section Levés Topographiques -->
+  <section class="leves-topographiques py-5">
+    <div class="container">
+      <h1>Levés Topographiques de la DST</h1>
+      <p class="lead">La DST réalise une gamme de levés topographiques pour cartographier, analyser et planifier l'aménagement du territoire. Ces levés sont cruciaux pour les projets d'infrastructure, d'urbanisme et de gestion des ressources naturelles.</p>
+
+      <!-- Accordéon Bootstrap pour rendre la lecture interactive -->
+      <div class="accordion" id="accordionLT">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="heading1">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1">
+              1. Types de Levés Topographiques
+            </button>
+          </h2>
+          <div id="collapse1" class="accordion-collapse collapse show" data-bs-parent="#accordionLT">
+            <div class="accordion-body">
+              <ul>
+                <li><strong>Levés de terrain :</strong> Caractéristiques physiques du terrain.</li>
+                <li><strong>Levés de construction :</strong> Données pour infrastructures.</li>
+                <li><strong>Levés géodésiques :</strong> Mesures de grande précision.</li>
+                <li><strong>Levés de réseaux :</strong> Cartographie des réseaux.</li>
+                <li><strong>Levés photogrammétriques :</strong> Drones et photos aériennes.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="heading2">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse2">
+              2. Méthodes et Techniques
+            </button>
+          </h2>
+          <div id="collapse2" class="accordion-collapse collapse" data-bs-parent="#accordionLT">
+            <div class="accordion-body">
+              <ul>
+                <li>Stations totales</li>
+                <li>GPS RTK</li>
+                <li>Levés LiDAR</li>
+                <li>Photogrammétrie aérienne</li>
+                <li>Topographie GPS mobile</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="heading3">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse3">
+              3. Équipements Utilisés
+            </button>
+          </h2>
+          <div id="collapse3" class="accordion-collapse collapse" data-bs-parent="#accordionLT">
+            <div class="accordion-body">
+              <ul>
+                <li>Stations Totales</li>
+                <li>GPS RTK</li>
+                <li>LiDAR</li>
+                <li>Drones</li>
+                <li>Logiciels SIG (ArcGIS, QGIS, AutoCAD)</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="heading4">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse4">
+              4. Étapes d'un Levé
+            </button>
+          </h2>
+          <div id="collapse4" class="accordion-collapse collapse" data-bs-parent="#accordionLT">
+            <div class="accordion-body">
+              <ol>
+                <li>Préparation du projet</li>
+                <li>Collecte des données</li>
+                <li>Contrôle qualité</li>
+                <li>Traitement des données</li>
+                <li>Validation des résultats</li>
+              </ol>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 Direction des Services Topographiques. Tous droits réservés.</p>
+    </div>
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script>
+    // Exemple d'interactivité JS
+    window.onload = () => {
+      console.log("Bienvenue sur la page Levés Topographiques !");
+    };
+  </script>
+</body>
+</html>

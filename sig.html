@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cartographies et SIG - DST</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Favicon -->        
+  <link rel="icon" href="browser_331593.png" type="image/x-icon">
+
+  <!-- Favicon -->        
+  <link rel="icon" href="browser_331593.png" type="image/x-icon">
+  <style>
+    body {
+      background-color: #f8f9fa;
+      font-family: Arial, sans-serif;
+    }
+    header {
+      background-color: #0d6efd;
+      color: white;
+      padding: 15px 0;
+    }
+    .logo {
+      font-weight: bold;
+      font-size: 1.2rem;
+    }
+    section h1 {
+      color: #0d6efd;
+      margin-bottom: 20px;
+    }
+    footer {
+      background-color: #0d6efd;;
+      color: white;
+      text-align: center;
+      padding: 15px 0;
+      margin-top: 30px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand logo" href="#">Direction des Services Topographiques</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuNav">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="menuNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item"><a class="nav-link" href="index.html">Accueil</a></li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle active" href="#" id="servicesDropdown" role="button" data-bs-toggle="dropdown">
+                Services
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="lt.html">Levés Topographiques</a></li>
+                <li><a class="dropdown-item active" href="sig.html">Cartographie et SIG</a></li>
+                <li><a class="dropdown-item" href="gfc.html">Gestion foncière et cadastrale</a></li>
+                <li><a class="dropdown-item" href="cat.html">Conseils et assistance technique</a></li>
+              </ul>
+            </li>
+            <li class="nav-item"><a class="nav-link" href="doc.html">Documentation</a></li>
+            <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+            <li class="nav-item"><a class="nav-link" href="about.html">À propos</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Section Cartographies et SIG -->
+  <section class="cartographies-sig py-5">
+    <div class="container">
+      <h1>Cartographies et Systèmes d'Information Géographique (SIG)</h1>
+      <p class="lead">La DST utilise des technologies avancées de <strong>Cartographie</strong> et des <strong>SIG</strong> pour collecter, analyser et diffuser des informations géospatiales essentielles.</p>
+
+      <!-- Accordéon Bootstrap pour rendre la lecture interactive -->
+      <div class="accordion" id="accordionSIG">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="heading1">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1">
+              1. Rôle des SIG
+            </button>
+          </h2>
+          <div id="collapse1" class="accordion-collapse collapse show" data-bs-parent="#accordionSIG">
+            <div class="accordion-body">
+              <ul>
+                <li>Collecter des données géospatiales</li>
+                <li>Analyser les données géospatiales</li>
+                <li>Visualiser les informations</li>
+                <li>Diffuser des informations géospatiales</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="heading2">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse2">
+              2. Technologies et Outils
+            </button>
+          </h2>
+          <div id="collapse2" class="accordion-collapse collapse" data-bs-parent="#accordionSIG">
+            <div class="accordion-body">
+              <ul>
+                <li>ArcGIS</li>
+                <li>QGIS</li>
+                <li>AutoCAD</li>
+                <li>Google Earth Pro</li>
+                <li>PostGIS</li>
+                <li>OpenStreetMap</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="heading3">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse3">
+              3. Applications
+            </button>
+          </h2>
+          <div id="collapse3" class="accordion-collapse collapse" data-bs-parent="#accordionSIG">
+            <div class="accordion-body">
+              <ul>
+                <li>Aménagement urbain</li>
+                <li>Gestion des ressources naturelles</li>
+                <li>Infrastructure publique</li>
+                <li>Études d'impact environnemental</li>
+                <li>Planification des risques naturels</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 Direction des Services Topographiques. Tous droits réservés.</p>
+    </div>
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script>
+    // Exemple d'interactivité JS
+    window.onload = () => {
+      console.log("Bienvenue sur la page Cartographies et SIG !");
+    };
+  </script>
+</body>
+</html>
